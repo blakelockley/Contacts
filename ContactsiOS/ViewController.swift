@@ -35,7 +35,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         } else {
             label.text = "No contact found"
-            self.subLabel.text = " "
+            subLabel.text = " "
         }
     }
 
@@ -45,4 +45,3 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return false
     }
 }
-
