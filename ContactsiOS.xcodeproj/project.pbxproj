@@ -13,6 +13,7 @@
 		EF7D07751F334E4F00EC3F1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7D07741F334E4F00EC3F1C /* Assets.xcassets */; };
 		EF7D07781F334E4F00EC3F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7D07761F334E4F00EC3F1C /* LaunchScreen.storyboard */; };
 		EF7D07801F334FA300EC3F1C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D077F1F334FA300EC3F1C /* Contact.swift */; };
+		EF7D07821F3364C300EC3F1C /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D07811F3364C300EC3F1C /* HTTPManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF7D07771F334E4F00EC3F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7D07791F334E4F00EC3F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7D077F1F334FA300EC3F1C /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		EF7D07811F3364C300EC3F1C /* HTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EF7D076D1F334E4F00EC3F1C /* AppDelegate.swift */,
 				EF7D076F1F334E4F00EC3F1C /* ViewController.swift */,
 				EF7D077F1F334FA300EC3F1C /* Contact.swift */,
+				EF7D07811F3364C300EC3F1C /* HTTPManager.swift */,
 				EF7D07711F334E4F00EC3F1C /* Main.storyboard */,
 				EF7D07741F334E4F00EC3F1C /* Assets.xcassets */,
 				EF7D07761F334E4F00EC3F1C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7D07801F334FA300EC3F1C /* Contact.swift in Sources */,
+				EF7D07821F3364C300EC3F1C /* HTTPManager.swift in Sources */,
 				EF7D07701F334E4F00EC3F1C /* ViewController.swift in Sources */,
 				EF7D076E1F334E4F00EC3F1C /* AppDelegate.swift in Sources */,
 			);

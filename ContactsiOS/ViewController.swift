@@ -11,9 +11,11 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var subLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
 
-    let manager = ContactManger()
+    let contactManager = ContactManger()
+    let httpManger = HTTPManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +23,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     func lookup(name: String) {
-        if let result = manager.contactWith(name: name) {
+        if let result = contactManager.contactWith(name: name) {
             label.text = "Found: \(result.name)"
+            self.subLabel.text = "HTTP Response: ..."
+            self.subLabel.textColor = .black
+            httpManger.getRequestWith(secretInfo: result.name) { (ok) in
+                OperationQueue.main.addOperation {
+                    self.subLabel.text = "HTTP Response: \(ok ? "OK" : "Failed")"
+                    self.subLabel.textColor = ok ? .green : .red
+                }
+            }
         } else {
             label.text = "No contact found"
+            self.subLabel.text = " "
         }
     }
 
