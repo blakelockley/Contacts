@@ -8,18 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
+
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textField: UITextField!
+
+    let manager = ContactManger()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        textField.becomeFirstResponder()
+    }
+    
+    func lookup(name: String) {
+        if let result = manager.contactWith(name: name) {
+            label.text = "Found: \(result.name)"
+        } else {
+            label.text = "No contact found"
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        lookup(name: textField.text!)
+        return false
     }
-
-
 }
 
