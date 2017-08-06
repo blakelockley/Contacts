@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20EB17162461CE6D21FE3F8D3F355FE7C7866520",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "20EB17162461CE6D21FE3F8D3F355FE7C7866520" : 9223372036854775807,
+    "88E6F05D515EE9610064FB3CF5056ED584B78487" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1B2049B3-F832-49C7-99EE-21E426D9E187",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "20EB17162461CE6D21FE3F8D3F355FE7C7866520" : "ContactsiOS\/",
+    "88E6F05D515EE9610064FB3CF5056ED584B78487" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ContactsiOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ContactsiOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blakelockley\/Contacts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20EB17162461CE6D21FE3F8D3F355FE7C7866520"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blakelockley\/XMLTask.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88E6F05D515EE9610064FB3CF5056ED584B78487"
+    }
+  ]
+}

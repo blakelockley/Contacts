@@ -14,6 +14,7 @@
 		EF7D07781F334E4F00EC3F1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7D07761F334E4F00EC3F1C /* LaunchScreen.storyboard */; };
 		EF7D07801F334FA300EC3F1C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D077F1F334FA300EC3F1C /* Contact.swift */; };
 		EF7D07821F3364C300EC3F1C /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D07811F3364C300EC3F1C /* HTTPManager.swift */; };
+		EFFA5FB31F35B15E00559416 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA5FB21F35B15E00559416 /* MockURLSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EF7D07791F334E4F00EC3F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF7D077F1F334FA300EC3F1C /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		EF7D07811F3364C300EC3F1C /* HTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
+		EFFA5FB21F35B15E00559416 /* MockURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +64,21 @@
 				EF7D076F1F334E4F00EC3F1C /* ViewController.swift */,
 				EF7D077F1F334FA300EC3F1C /* Contact.swift */,
 				EF7D07811F3364C300EC3F1C /* HTTPManager.swift */,
+				EFFA5FB11F35B12C00559416 /* Mock Libraries */,
 				EF7D07711F334E4F00EC3F1C /* Main.storyboard */,
 				EF7D07741F334E4F00EC3F1C /* Assets.xcassets */,
 				EF7D07761F334E4F00EC3F1C /* LaunchScreen.storyboard */,
 				EF7D07791F334E4F00EC3F1C /* Info.plist */,
 			);
 			path = ContactsiOS;
+			sourceTree = "<group>";
+		};
+		EFFA5FB11F35B12C00559416 /* Mock Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EFFA5FB21F35B15E00559416 /* MockURLSession.swift */,
+			);
+			name = "Mock Libraries";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 				EF7D07801F334FA300EC3F1C /* Contact.swift in Sources */,
 				EF7D07821F3364C300EC3F1C /* HTTPManager.swift in Sources */,
 				EF7D07701F334E4F00EC3F1C /* ViewController.swift in Sources */,
+				EFFA5FB31F35B15E00559416 /* MockURLSession.swift in Sources */,
 				EF7D076E1F334E4F00EC3F1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +284,7 @@
 				DEVELOPMENT_TEAM = 3785NJEA23;
 				INFOPLIST_FILE = ContactsiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Blake-Lockley.ContactsiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -310,6 +323,7 @@
 				EF7D077E1F334E4F00EC3F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
