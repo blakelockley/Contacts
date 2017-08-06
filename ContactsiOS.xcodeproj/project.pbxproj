@@ -15,6 +15,7 @@
 		EF7D07801F334FA300EC3F1C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D077F1F334FA300EC3F1C /* Contact.swift */; };
 		EF7D07821F3364C300EC3F1C /* HTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7D07811F3364C300EC3F1C /* HTTPManager.swift */; };
 		EFFA5FB31F35B15E00559416 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA5FB21F35B15E00559416 /* MockURLSession.swift */; };
+		EFFA5FB51F37643D00559416 /* MockContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFA5FB41F37643D00559416 /* MockContacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EF7D077F1F334FA300EC3F1C /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		EF7D07811F3364C300EC3F1C /* HTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPManager.swift; sourceTree = "<group>"; };
 		EFFA5FB21F35B15E00559416 /* MockURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		EFFA5FB41F37643D00559416 /* MockContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockContacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				EFFA5FB21F35B15E00559416 /* MockURLSession.swift */,
+				EFFA5FB41F37643D00559416 /* MockContacts.swift */,
 			);
 			name = "Mock Libraries";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				EF7D07821F3364C300EC3F1C /* HTTPManager.swift in Sources */,
 				EF7D07701F334E4F00EC3F1C /* ViewController.swift in Sources */,
 				EFFA5FB31F35B15E00559416 /* MockURLSession.swift in Sources */,
+				EFFA5FB51F37643D00559416 /* MockContacts.swift in Sources */,
 				EF7D076E1F334E4F00EC3F1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
