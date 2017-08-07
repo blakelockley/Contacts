@@ -1,8 +1,8 @@
 //
-//  Contact.swift
+//  ContactManager.swift
 //  ContactsiOS
 //
-//  Created by Blake Lockley on 3/8/17.
+//  Created by Blake Lockley on 7/8/17.
 //  Copyright © 2017 Blake Lockley. All rights reserved.
 //
 
