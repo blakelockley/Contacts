@@ -27,6 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             label.text = "Found: \(result.name)"
             self.subLabel.text = "HTTP Response: ..."
             self.subLabel.textColor = .black
+            //result.name is a L variable
             httpManger.getRequestWith(secretInfo: result.name) { (ok) in
                 OperationQueue.main.addOperation {
                     self.subLabel.text = "HTTP Response: \(ok ? "OK" : "Failed")"

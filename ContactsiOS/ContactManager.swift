@@ -22,6 +22,7 @@ class ContactManger {
         let keys = [CNContactGivenNameKey, CNContactFamilyNameKey] as [CNKeyDescriptor]
 
         do {
+            //Result from here is a H variable
             let contacts = try store.unifiedContacts(matching: predicate, keysToFetch: keys)
             return contacts.first.map { contact in
                 Contact(name: contact.givenName + " " + contact.familyName)
